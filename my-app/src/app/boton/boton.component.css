@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Elimina los márgenes por defecto */
+  }
+
+
+
+.n2 {
+    padding: 15px 30px; /* Hace el botón más grande */
+    font-size: 1.2em; /* Aumenta el tamaño del texto dentro del botón */
+    background-color: #ff9800; /* Color naranja */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem; 
+    width: 300px; 
+  }
+
+  .n2:hover {
+    background-color: #e68900; /* Color naranja más oscuro al pasar el cursor */
+   
+  }
